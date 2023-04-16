@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test1 : signing up]]>
+    </line>
+    <line>
+      <![CDATA[Test1 : click on button after sign up]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-26T23:51:05 IST" name="Suite" finished-at="2023-03-26T23:51:05 IST" duration-ms="508">
+    <groups>
+    </groups>
+    <test started-at="2023-03-26T23:51:05 IST" name="Test1" finished-at="2023-03-26T23:51:05 IST" duration-ms="508">
+      <class name="com.amazon.testing.Test2">
+        <test-method signature="signup()[pri:0, instance:com.amazon.testing.Test2@2925bf5b]" started-at="2023-03-26T23:51:05 IST" name="signup" finished-at="2023-03-26T23:51:05 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:0, instance:com.amazon.testing.Test2@2925bf5b]" started-at="2023-03-26T23:51:05 IST" name="login" finished-at="2023-03-26T23:51:05 IST" depends-on-methods="com.amazon.testing.Test2.signup" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homepage()[pri:0, instance:com.amazon.testing.Test2@2925bf5b]" started-at="2023-03-26T23:51:05 IST" name="homepage" finished-at="2023-03-26T23:51:05 IST" depends-on-methods="com.amazon.testing.Test2.login" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="shoecategory()[pri:0, instance:com.amazon.testing.Test2@2925bf5b]" started-at="2023-03-26T23:51:05 IST" name="shoecategory" finished-at="2023-03-26T23:51:05 IST" depends-on-methods="com.amazon.testing.Test2.homepage" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoecategory -->
+        <test-method signature="productDP()[pri:0, instance:com.amazon.testing.Test2@2925bf5b]" started-at="2023-03-26T23:51:05 IST" name="productDP" finished-at="2023-03-26T23:51:05 IST" depends-on-methods="com.amazon.testing.Test2.shoecategory" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDP -->
+        <test-method signature="shippingdetails()[pri:0, instance:com.amazon.testing.Test2@2925bf5b]" started-at="2023-03-26T23:51:05 IST" name="shippingdetails" finished-at="2023-03-26T23:51:05 IST" depends-on-methods="com.amazon.testing.Test2.productDP" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingdetails -->
+      </class> <!-- com.amazon.testing.Test2 -->
+      <class name="com.amazon.testing.Test1">
+        <test-method signature="login()[pri:0, instance:com.amazon.testing.Test1@1c1bbc4e]" started-at="2023-03-26T23:51:05 IST" name="login" finished-at="2023-03-26T23:51:05 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homepage()[pri:0, instance:com.amazon.testing.Test1@1c1bbc4e]" started-at="2023-03-26T23:51:05 IST" name="homepage" finished-at="2023-03-26T23:51:05 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="mobilecategory()[pri:0, instance:com.amazon.testing.Test1@1c1bbc4e]" started-at="2023-03-26T23:51:05 IST" name="mobilecategory" finished-at="2023-03-26T23:51:05 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilecategory -->
+        <test-method signature="productDP()[pri:0, instance:com.amazon.testing.Test1@1c1bbc4e]" started-at="2023-03-26T23:51:05 IST" name="productDP" finished-at="2023-03-26T23:51:05 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDP -->
+        <test-method signature="shippingdetails()[pri:0, instance:com.amazon.testing.Test1@1c1bbc4e]" started-at="2023-03-26T23:51:05 IST" name="shippingdetails" finished-at="2023-03-26T23:51:05 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingdetails -->
+        <test-method signature="signup()[pri:0, instance:com.amazon.testing.Test1@1c1bbc4e]" started-at="2023-03-26T23:51:05 IST" name="signup" finished-at="2023-03-26T23:51:05 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 : signing up]]>
+            </line>
+            <line>
+              <![CDATA[Test1 : click on button after sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- com.amazon.testing.Test1 -->
+      <class name="com.amazon.testing.Test4">
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+        <test-method signature="saysomething()[pri:0, instance:com.amazon.testing.Test4@1ff4931d]" started-at="2023-03-26T23:51:05 IST" name="saysomething" finished-at="2023-03-26T23:51:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saysomething -->
+      </class> <!-- com.amazon.testing.Test4 -->
+      <class name="com.amazon.testing.Test3">
+        <test-method signature="signup()[pri:1, instance:com.amazon.testing.Test3@710f4dc7]" started-at="2023-03-26T23:51:05 IST" name="signup" finished-at="2023-03-26T23:51:05 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:2, instance:com.amazon.testing.Test3@710f4dc7]" started-at="2023-03-26T23:51:05 IST" name="login" finished-at="2023-03-26T23:51:05 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homepage()[pri:3, instance:com.amazon.testing.Test3@710f4dc7]" started-at="2023-03-26T23:51:05 IST" name="homepage" finished-at="2023-03-26T23:51:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="bookscategory()[pri:4, instance:com.amazon.testing.Test3@710f4dc7]" started-at="2023-03-26T23:51:05 IST" name="bookscategory" finished-at="2023-03-26T23:51:05 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookscategory -->
+        <test-method signature="productDP()[pri:5, instance:com.amazon.testing.Test3@710f4dc7]" started-at="2023-03-26T23:51:05 IST" name="productDP" finished-at="2023-03-26T23:51:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDP -->
+        <test-method signature="shippingdetails()[pri:6, instance:com.amazon.testing.Test3@710f4dc7]" started-at="2023-03-26T23:51:05 IST" name="shippingdetails" finished-at="2023-03-26T23:51:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingdetails -->
+      </class> <!-- com.amazon.testing.Test3 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

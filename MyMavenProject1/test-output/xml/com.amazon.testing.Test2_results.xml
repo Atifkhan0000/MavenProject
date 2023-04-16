@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test1"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.132">
+  <properties />
+  
+  
+            <testcase name="shippingdetails" time="0.007" classname="com.amazon.testing.Test2" />
+                <testcase name="shoecategory" time="0.029" classname="com.amazon.testing.Test2" />
+                <testcase name="productDP" time="0.002" classname="com.amazon.testing.Test2" />
+                <testcase name="homepage" time="0.015" classname="com.amazon.testing.Test2" />
+                <testcase name="login" time="0.056" classname="com.amazon.testing.Test2" />
+                <testcase name="signup" time="0.023" classname="com.amazon.testing.Test2" />
+      
+</testsuite>
